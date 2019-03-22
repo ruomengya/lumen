@@ -26,5 +26,5 @@ $router->post('/curl/test' , 'Curl\CurlController@curl');
 //$router->get('/rsa/test' , 'Curl\CurlController@test');
 $router->post('/rsa/test' , 'Curl\CurlController@test');
 
-$router->get('/login' , 'User\LoginController@login');
+//$router->get('/login' , 'User\LoginController@login');
 $router->post('/login' , 'User\LoginController@login');
