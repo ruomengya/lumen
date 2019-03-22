@@ -16,7 +16,7 @@ class LoginController extends Controller
             'password' => $password
         ];
 
-        $url = 'http://whwpp..anjingdehua.cn/phon/login';
+        $url = 'http://whwpp.anjingdehua.cn/phon/login';
 
         $ch = curl_init($url);
 
